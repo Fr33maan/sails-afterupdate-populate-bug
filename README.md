@@ -1,5 +1,7 @@
 # testSavePopulate
 
+This repo was created to reproduce a waterline bug/feature -> https://github.com/balderdashy/waterline/issues/1422
+
 The issue is that afterUpdate lifecylcle callback should be called with updated values as doc says but it is not populated.  
 I don't know if it is a desired behaviour but it is quite strange as I cannot use lifecycle callback when I associate a model.  
 
